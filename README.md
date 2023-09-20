@@ -1,7 +1,11 @@
 Analysis of pseudorandom numbers. Finding the main period (P), the pre-period (N), the quadratic error (Z).
 
-Run with:
+Linux/Mac:
 ```
-make
 ./RNG
+```
+
+Windows:
+```
+RNG
 ```
