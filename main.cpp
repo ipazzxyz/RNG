@@ -2,7 +2,7 @@
 
 int main() {
     int a, b, c, d, x0, x1, x2;
-    std::cout << "Enter a, b, c, d and x₀, x₁, x₂." << std::endl << "Input: ";
+    std::cout << "Enter a, b, c, d and x₀, x₁, x₂." << std::endl << "Input: " << std::endl;
     std::cin >> a >> b >> c >> d >> x0 >> x1 >> x2;
     RNG rng = RNG(a, b, c, d, x0, x1, x2);
     std::cout << "Output:" << std::endl << "P = " << rng.GetP() << std::endl;
